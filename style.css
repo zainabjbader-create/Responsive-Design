@@ -11,6 +11,12 @@
     padding: 10px;
 }
 
+.hover {
+  padding: 15px;
+  background: green;
+  color: white;
+one;
+}
 
 @media (min-width: 600px) {
     .images { grid-template-columns: 1fr 1fr; }
