@@ -49,4 +49,27 @@ one;
   text-decoration: none;
   color: black;
 }
+.options {
+  display: none;        
+  background: grey;     
+  padding: 4px;         
+}
+
+.dropdown:hover .options {
+  display: block;      
+}
+
+.options a {
+  display: block;       
+  padding: 5px;        
+  text-decoration: none;
+  color: black;
+}
+.zoomimage {
+  transition: 0.5s;       
+}
+
+.zoomimage:hover {
+  transform: scale(1.2);   
+}
 
