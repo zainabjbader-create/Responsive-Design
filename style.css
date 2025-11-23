@@ -11,12 +11,7 @@
     padding: 10px;
 }
 
-.hover {
-  padding: 15px;
-  background: green;
-  color: white;
-one;
-}
+
 
 @media (min-width: 600px) {
     .images { grid-template-columns: 1fr 1fr; }
@@ -26,4 +21,53 @@ one;
     .images { grid-template-columns: 1fr 1fr 1fr; }
 }
 
+hover {
+  padding: 15px;
+  background: green;
+  color: white;
+one;
+}
+
+.hover:hover {
+  background: darkgreen;  
+  transform: scale(1.1);   
+}
+
+
+
+Step 2: Dropdown menu:
+
+Html:
+
+<div class="dropdown">
+  <button>Menu</button>
+  <div class="options">
+    <a href="#">Option 1</a>
+    <a href="#">Option 2</a>
+    <a href="#">Option 3</a>
+    <a href="#">Option 4</a>
+
+
+  </div>
+</div>
+
+
+
+CSS:
+.options {
+  display: none;        
+  background: grey;     
+  padding: 4px;         
+}
+
+.dropdown:hover .options {
+  display: block;      
+}
+
+.options a {
+  display: block;       
+  padding: 5px;        
+  text-decoration: none;
+  color: black;
+}
 
