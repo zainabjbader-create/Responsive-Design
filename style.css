@@ -33,27 +33,6 @@ one;
   transform: scale(1.1);   
 }
 
-
-
-Step 2: Dropdown menu:
-
-Html:
-
-<div class="dropdown">
-  <button>Menu</button>
-  <div class="options">
-    <a href="#">Option 1</a>
-    <a href="#">Option 2</a>
-    <a href="#">Option 3</a>
-    <a href="#">Option 4</a>
-
-
-  </div>
-</div>
-
-
-
-CSS:
 .options {
   display: none;        
   background: grey;     
